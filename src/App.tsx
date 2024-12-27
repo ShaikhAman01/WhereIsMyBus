@@ -53,11 +53,11 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <Hero />
-      <section className="pt-4">
+      <section className="pt-4 pb-4">
         <div className="bg-bgYellow px-4 flex flex-col justify-center items-center">
-          <p className=" text-gray-800 font-semibold text-center pt-4 text-2xl">Welcome to</p>
+          <p className=" text-gray-800 font-semibold text-center pt-4 text-xl">Welcome to</p>
           <p className="text-4xl text-brandBlue font-bold text-center">Where is my bus?</p>
-          <p className="pt-6">
+          <p className="pt-6 leading-tight">
             Your ultimate companion for hassle-free college commutes! Designed
             with students in mind, our progressive web application provides
             real-time tracking for college buses, ensuring you never miss a
