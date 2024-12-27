@@ -13,7 +13,7 @@ const Hero = () => {
 <div className='flex flex-col justify-center items-center text-center pt-5'>
    <img src={TextLogo} alt="textlogo" className='mb-8 w-auto max-w-xs' />
     <Button/>
-    <div className='text-md font-semibold underline flex justify-center items-center gap-2 pt-3'>
+    <div className='text-lg font-semibold underline flex justify-center items-center gap-2 pt-2'>
     <img src={DownArrow} alt="textlogo" className='w-auto max-w-xs' />
         <a href="mb-8 ">Know More</a>
     </div>
